@@ -1,0 +1,15 @@
+INPUT(
+./debug\main.o
+./debug\dialog.o
+./debug\serverthread.o
+./debug\server.o
+./debug\mysocket.o
+./debug\sqlite_operation.o
+./debug\logindialog.o
+./debug\moc_serverthread.o
+./debug\moc_server.o
+./debug\moc_mysocket.o
+./debug\moc_sqlite_operation.o
+./debug\moc_logindialog.o
+./debug\moc_dialog.o
+);

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>785</width>
+    <height>551</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="acceptDrops">
+   <bool>true</bool>
+  </property>
+  <property name="windowTitle">
+   <string>USER服务器</string>
+  </property>
+  <property name="sizeGripEnabled">
+   <bool>false</bool>
+  </property>
+  <property name="modal">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>13</x>
+     <y>13</y>
+     <width>761</width>
+     <height>531</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <property name="sizeConstraint">
+     <enum>QLayout::SetDefaultConstraint</enum>
+    </property>
+    <item row="0" column="0">
+     <layout class="QHBoxLayout" name="horizontalLayout_5">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_4">
+        <item>
+         <widget class="QTextBrowser" name="msg"/>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QTableView" name="database"/>
+      </item>
+     </layout>
+    </item>
+    <item row="1" column="0">
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <item>
+       <widget class="QLineEdit" name="sendMsg">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="sendBtn">
+        <property name="text">
+         <string>发送</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="2" column="0">
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string>发送对象  ：</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="objectBox"/>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="addrCheckBox">
+        <property name="text">
+         <string>不显示客户端地址   </string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_2">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QPushButton" name="clearBtn">
+        <property name="text">
+         <string>清空接收</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="3" column="0">
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>当前用户连接数：</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="num">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>13</width>
+          <height>26</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_3">
+        <property name="text">
+         <string>用户总数:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="user_total">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_3">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>13</width>
+          <height>26</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
